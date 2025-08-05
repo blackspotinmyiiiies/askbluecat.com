@@ -1,32 +1,37 @@
 <!DOCTYPE html>
-       <html lang="en">
-       <head>
-           <meta charset="UTF-8">
-           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-           <title>{{ page.title | default: site.title }}</title>
-           <script src="https://cdn.tailwindcss.com"></script>
-           <style>
-               body {
-                   background-image: url('https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
-                   background-size: cover;
-                   background-attachment: fixed;
-               }
-               .meow-text {
-                   font-family: 'Comic Sans MS', cursive, sans-serif;
-                   color: #1e40af;
-               }
-           </style>
-       </head>
-       <body class="flex flex-col items-center min-h-screen bg-gray-100 bg-opacity-75">
-           <header class="w-full bg-blue-600 text-white p-4 text-center">
-               <h1 class="text-4xl font-bold meow-text">Meow! Welcome to {{ site.title }}!</h1>
-               <p class="text-lg">{{ site.description }}</p>
-           </header>
-           <main class="max-w-4xl mx-auto p-6 bg-white bg-opacity-90 rounded-lg shadow-lg mt-4">
-               {{ content }}
-           </main>
-           <footer class="w-full bg-blue-600 text-white p-4 text-center mt-4">
-               <p class="meow-text">Meow meow! &copy; 2025 {{ site.title }}. All rights reserved, meow!</p>
-           </footer>
-       </body>
-       </html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>{{ page.title | default: site.title }}</title>
+         <script src="https://cdn.tailwindcss.com"></script>
+         <style>
+             body {
+                 background-image: url('https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+                 background-size: cover;
+                 background-attachment: fixed;
+             }
+             .meow-text {
+                 font-family: 'Comic Sans MS', cursive, sans-serif;
+                 color: #1e40af;
+             }
+         </style>
+     </head>
+     <body class="flex flex-col items-center min-h-screen bg-gray-100 bg-opacity-75">
+         <header class="w-full bg-blue-600 text-white p-4 text-center">
+             <h1 class="text-4xl font-bold meow-text">Meow! Welcome to {{ site.title }}!</h1>
+             <p class="text-lg">{{ site.description }}</p>
+             <nav class="mt-2">
+                 <a href="/" class="text-white hover:underline">Home, Meow!</a> |
+                 <a href="/owasp-2025.html" class="text-white hover:underline">OWASP 2025, Meow!</a> |
+                 <a href="/bug-bounty.html" class="text-white hover:underline">Bug Bounty, Meow!</a>
+             </nav>
+         </header>
+         <main class="max-w-4xl mx-auto p-6 bg-white bg-opacity-90 rounded-lg shadow-lg mt-4">
+             {{ content }}
+         </main>
+         <footer class="w-full bg-blue-600 text-white p-4 text-center mt-4">
+             <p class="meow-text">Meow meow! &copy; 2025 {{ site.title }}. All rights reserved, meow!</p>
+         </footer>
+     </body>
+     </html>
