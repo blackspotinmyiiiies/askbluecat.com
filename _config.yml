@@ -1,5 +1,7 @@
-title: Ask Blue Cat
-description: "Your questions answered by Blue Cat"
-theme: minima
+title: AskBlueCat
+description: BlueCat's meow-tastic cybersecurity hub, meow!
 baseurl: ""
 url: "https://askbluecat.com"
+theme: minima
+plugins:
+  - jekyll-feed
