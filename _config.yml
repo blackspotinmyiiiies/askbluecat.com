@@ -1,7 +1,20 @@
-title: AskBlueCat
-description: BlueCat's meow-tastic cybersecurity hub, meow!
-baseurl: ""
-url: "https://askbluecat.com"
-remote_theme: pages-themes/architect@v0.2.0
+# Site settings
+title: Ask Blue Cat
+description: MEOW
+url: "https://blackspotinmyiiiies.github.io"
+baseurl: "/askbluecat.com"
+
+# Build settings
+markdown: kramdown
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Theme (optional - you can change this later)
+theme: minima
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
