@@ -2,6 +2,7 @@ title: AskBlueCat
 description: BlueCat's meow-tastic cybersecurity hub, meow!
 baseurl: ""
 url: "https://askbluecat.com"
-remote_theme: pages-themes/architech@v0.2.0
+remote_theme: pages-themes/architect@v0.2.0
 plugins:
-  - jekyll-theme-remote
+  - jekyll-remote-theme
+theme: jekyll-theme-architect
