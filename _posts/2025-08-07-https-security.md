@@ -9,11 +9,8 @@ categories: cybersecurity https
     <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cute cat with blue eyes" style="max-width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
     <p style="font-style: italic; color: #666; margin-top: 10px;">BlueCat securing your connections, meow! 🔒</p>
 </div>
-<div style="background: linear-gradient(135deg, #87CEEB, #4169E1); padding: 15px; border-radius: 10px; margin: 20px 0; text-align: center;">
-    <a href="{{ '/' | relative_url }}" style="color: white; text-decoration: none; font-weight: bold; margin: 0 15px; display: inline-block; padding: 8px 15px; background: rgba(255,255,255,0.2); border-radius: 5px; transition: all 0.3s;">🏠 Home</a>
-    <a href="{{ '/blogs/' | relative_url }}" style="color: white; text-decoration: none; font-weight: bold; margin: 0 15px; display: inline-block; padding: 8px 15px; background: rgba(255,255,255,0.2); border-radius: 5px; transition: all 0.3s;">📝 All Blogs</a>
-    <a href="{{ '/about/' | relative_url }}" style="color: white; text-decoration: none; font-weight: bold; margin: 0 15px; display: inline-block; padding: 8px 15px; background: rgba(255,255,255,0.2); border-radius: 5px; transition: all 0.3s;">🐱 About BlueCat</a>
-</div>
+{% include post-navigation.html %} 
+
 # HTTPS is Purr-fect Security! 🐱
 
 Meow meow! Today BlueCat wants to talk about HTTPS - the most important security feature on the web!
