@@ -1,5 +1,12 @@
-# Welcome to Ask Blue Cat!
+---
+layout: home
+title: Welcome to Ask Blue Cat
+---
 
-Your questions answered by Blue Cat.
+# MEOW 🐱
 
-This site is powered by Jekyll and GitHub Pages.
+Welcome to Ask Blue Cat! This is your Jekyll-powered website.
+
+## About
+
+This site is built with Jekyll and hosted on GitHub Pages.
