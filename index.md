@@ -32,4 +32,3 @@ title: AskBlueCat - Meow Cybersecurity
         <p><a href="{{ '/blogs/' | relative_url }}" class="text-blue-600 hover:text-blue-800 font-medium">📝 Blogs - Read BlueCat's cybersecurity wisdom, meow meow!</a></p>
     </div>
 </section>
-Check out the [blog posts]({{ site.baseurl }}/blog/) or learn more [about us]({{ site.baseurl }}/about/).
