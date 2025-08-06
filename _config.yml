@@ -22,3 +22,7 @@ exclude:
   - Gemfile.lock
 
 # Force rebuild
+# Architect theme customization
+show_downloads: true
+github:
+  repository_url: https://github.com/blackspotinmyiiiies/askbluecat.com
