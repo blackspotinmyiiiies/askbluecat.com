@@ -9,7 +9,7 @@ categories: cybersecurity
     <img src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Blue-eyed cat looking alert" style="max-width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
     <p style="font-style: italic; color: #666; margin-top: 10px;">BlueCat keeping watch for cyber threats, meow! 🐱</p>
 </div>
-
+{% include post-navigation.html %}
 # Meow! Cybersecurity Tips from BlueCat 🐱
 
 Hello humans! BlueCat has some purr-fect cybersecurity advice, meow meow!
