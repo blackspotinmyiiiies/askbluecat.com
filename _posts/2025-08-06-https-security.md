@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "HTTPS Security - Meow Meow!"
-date: 2025-08-07
+date: 2025-08-06
 categories: cybersecurity https
 ---
 
