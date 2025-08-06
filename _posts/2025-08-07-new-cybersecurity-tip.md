@@ -1,18 +1,16 @@
 ---
 layout: default
-title: "New Cybersecurity Tip - Meow!"
-date: 2025-08-07 12:00:00 +0000
-categories: cybersecurity tips
+title: "Test Post - Meow Cybersecurity Tip"
+date: 2025-08-06 12:00:00 +0000
+categories: cybersecurity
 ---
 
-# Meow! Password Security Tips 🐱
+# Meow! This is a Test Post 🐱
 
-Meow meow! Today BlueCat wants to share some purr-fect password tips:
+Hello humans! This is BlueCat testing the blog functionality, meow meow!
 
-## Strong Passwords, Meow!
+## Quick Cybersecurity Tip:
 
-- Use at least 12 characters, meow
-- Mix uppercase, lowercase, numbers, and symbols
-- Don't use "password123" - that's like leaving catnip out for hackers, meow!
+Always keep your software updated, meow! Outdated software is like leaving the cat door open for cyber-rats, meow meow!
 
-Remember: A strong password is like sharp claws - it protects you from digital predators, meow meow! 🐾
+Stay safe online! 🐾
