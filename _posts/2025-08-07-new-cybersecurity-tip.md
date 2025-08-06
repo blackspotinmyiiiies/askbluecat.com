@@ -32,3 +32,4 @@ Just like cats have keen senses, you need to stay alert online:
 - Keep your claws sharp with regular security updates
 
 Stay safe online, humans! BlueCat is watching over your digital territory! 🐾
+{% include post-navigation.html %}
