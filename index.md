@@ -3,7 +3,12 @@ layout: default
 title: AskBlueCat - Meow Cybersecurity
 ---
 
-<section>
+<div class="bluecat-hero">
+    <h1>🐱 Welcome to AskBlueCat - Meow!</h1>
+    <p>Your friendly cybersecurity kitty is here to keep your digital world safe, meow meow!</p>
+</div>
+
+<section class="content-section">
     <h2 class="text-2xl font-semibold meow-text">Meow! Cybersecurity is Serious, Meow!</h2>
     <p class="mt-2 text-gray-700">
         Meow meow, listen up, humans! I'm BlueCat, your cybersecurity kitty, meow. Protecting your website is no catnip game, meow. Here's some serious advice with a sprinkle of meow:
@@ -18,17 +23,15 @@ title: AskBlueCat - Meow Cybersecurity
     </ul>
 </section>
 
-<section class="mt-6">
+<section class="content-section">
     <h2 class="text-2xl font-semibold meow-text">Meow! Why BlueCat Cares, Meow!</h2>
     <p class="mt-2 text-gray-700">
         Meow, I'm not just a cat chasing laser pointers! I want your site to be safe, meow. Hackers are like sneaky rats, but BlueCat's got claws, meow meow! Follow these tips, and your <code>askbluecat.com</code> will purr with security, meow.
     </p>
 </section>
 
-<section class="mt-8">
-    <h2 class="text-2xl font-semibold meow-text">Explore More, Meow!</h2>
-    <div class="mt-4 space-y-2">
-        <p><a href="{{ '/about/' | relative_url }}" class="text-blue-600 hover:text-blue-800 font-medium">🐱 About BlueCat - Learn more about your cybersecurity kitty, meow!</a></p>
-        <p><a href="{{ '/blogs/' | relative_url }}" class="text-blue-600 hover:text-blue-800 font-medium">📝 Blogs - Read BlueCat's cybersecurity wisdom, meow meow!</a></p>
-    </div>
+<section class="nav-links">
+    <h2 class="text-2xl font-semibold" style="color: white; margin-bottom: 15px;">Explore More, Meow!</h2>
+    <a href="{{ '/about/' | relative_url }}">🐱 About BlueCat - Learn more about your cybersecurity kitty, meow!</a>
+    <a href="{{ '/blogs/' | relative_url }}">📝 Blogs - Read BlueCat's cybersecurity wisdom, meow meow!</a>
 </section>
