@@ -43,3 +43,5 @@ Look for these signs in your browser:
 Remember: A secure connection is like having BlueCat guard your data - nobody gets through without permission, meow meow! 🐾
 
 Stay secure, humans!
+
+{% include post-navigation.html %}
