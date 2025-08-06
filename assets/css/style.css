@@ -1,3 +1,5 @@
+@import url("{{ site.github.url }}/assets/css/style.css");
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -5,6 +7,73 @@ body {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* Blue Cat Homepage Background */
+.bluecat-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                      url('https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.bluecat-hero h1 {
+    color: #87CEEB;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.bluecat-hero p {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    font-size: 1.1em;
+}
+
+/* Style for meow text */
+.meow-text {
+    color: #4169E1;
+    font-weight: bold;
+}
+
+/* Content sections */
+.content-section {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation links styling */
+.nav-links {
+    background: linear-gradient(135deg, #87CEEB, #4169E1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.nav-links a:last-child {
+    border-bottom: none;
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
 header {
