@@ -12,4 +12,4 @@ MEOW! This is the about page for Ask Blue Cat.
 
 This is a Jekyll-powered website hosted on GitHub Pages.
 
-Contact: [Your contact info here]
+Contact: [marketingemailforyou@duck.com]
