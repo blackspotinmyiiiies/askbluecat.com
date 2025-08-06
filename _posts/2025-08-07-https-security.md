@@ -9,6 +9,7 @@ categories: cybersecurity https
     <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cute cat with blue eyes" style="max-width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
     <p style="font-style: italic; color: #666; margin-top: 10px;">BlueCat securing your connections, meow! 🔒</p>
 </div>
+
 {% include post-navigation.html %} 
 
 # HTTPS is Purr-fect Security! 🐱
