@@ -1,8 +1,8 @@
 # Site settings
 title: Ask Blue Cat
 description: MEOW
-url: "https://blackspotinmyiiiies.github.io"
-baseurl: "/askbluecat.com"
+url: "https://askbluecat.com"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
@@ -10,11 +10,15 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Theme (optional - you can change this later)
-theme: minima
+# Theme - Architect
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+  - jekyll-remote-theme
 
 # Exclude files from processing
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+# Force rebuild
